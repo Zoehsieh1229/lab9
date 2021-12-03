@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+
+	<script>
+        var num;
+        num=window.prompt("Enter a number from 1-10");
+        
+        var rand=Math.floor((Math.random()*10)+1);
+     
+      
+      while(num!=rand){ alert('Wrong. Try again!')
+      	    num=window.prompt("Enter a number from 1-10");
+      	   
+      }
+       while(num==rand){
+          document.write("BINGO!")
+          break;
+        
+      }
+  
+
+
+ 
+    </script>
+</body>
+</html>
